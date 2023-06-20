@@ -1,8 +1,8 @@
 # Base image
 FROM node:16-alpine
 
-#yarn install
-RUN npm install --global yarn
+# #yarn install
+# RUN npm install --global yarn
 
 WORKDIR /app
 

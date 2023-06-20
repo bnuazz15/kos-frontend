@@ -1,6 +1,9 @@
 # Base image
 FROM node:16-alpine
 
+#yarn install
+RUN npm install --global yarn
+
 WORKDIR /app
 
 COPY package.json yarn.lock ./
